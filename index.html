@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>JS Challenge 1</title>
+  <link rel="stylesheet" href="bar.css">
+</head>
+<body>
+  <div class="mainContent">
+    <form action="index_submit" method="get">
+      <label>Range<input type="range" name="bar" id="rangeBar" value="10" min="1" max="20" oninput="outputValue(value)"></label>
+      <output for="rangeBar" id="rangeOutput">10</output><br>
+      <label>Number<input type="number" name="Box" id="numberBox" value="10" min="1" max="20" oninput="boxValueAmount(value)"></label>
+    </form>
+  </div>
+  <script src="bar.js" type="text/javascript"></script>
+</body>
+</html>
